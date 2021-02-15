@@ -28,7 +28,7 @@ n_intrattenimento = BbnNode(Variable(7, 'intrattenimento', ['trasmissione evento
 
 #Caratteristiche Ristorante
 n_cibo = BbnNode(Variable(8, 'cibo', ['buono', 'pessimo']), [0.8, 0.2])
-n_staff = BbnNode(Variable(9, 'staff', ['buono', 'pessimo']), [0.9, 0.1])
+n_staff = BbnNode(Variable(9, 'staff', ['buono', 'pessimo']), [0.7, 0.3])
 n_caratteristiche_ristorante = BbnNode(Variable(10, 'caratteristiche ristorante', ['buono', 'pessimo']),
                                 [0.9, 0.1, 0.31, 0.69, 0.17, 0.83, 0.01, 0.99])
 
